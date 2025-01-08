@@ -14,7 +14,7 @@ doesn't give an error then the virtualenv was started properly, when you're done
 type exit().  
  Once you've confirmed the environment has been initialized properly, type flask
 run which will launch the app. If the app does not launch, in your terminal type
-export 'FLASK_APP=app.py' and then try flask run again. Once the app is running,
+export FLASK_APP=app.py and then try flask run again. Once the app is running,
 go to your browser of choice and type localhost:5000 into the url bar and press
 enter. The simple application should now be running in your web browser. At the
 moment, the app can only be used by typing text into the text box then pressing
